@@ -1,0 +1,12 @@
+This directory contains an i2c test program that assumes the i2c
+target device has 8-bit registers 0 to 3, all bits of which can be
+read and written.
+
+Install these packages, i2c-tools is to get i2cdetect, etc:
+
+   sudo apt install i2c-tools libi2c-dev
+
+Then "make" and run test_i2c without arguments.
+
+
+
